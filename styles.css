@@ -118,6 +118,7 @@ body .main-wrapper .list-area .completed-wrapper #completedTask {
   margin: 10px;
   padding: 10px;
   transition: ease-in-out 0.5s;
+  text-decoration: line-through;
 }
 body .main-wrapper .list-area .completed-wrapper #completedTask:hover {
   border-radius: 5px;
