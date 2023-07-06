@@ -1,4 +1,4 @@
-sumbitCount = 0;
+submitCount = 0;
 movingItemsCount = 0;
 
 const instructions = document.createElement("p");
@@ -9,7 +9,6 @@ submit.onclick = () => {
   let toDoArray = [];
   let competeArray = [];
   const listItemDiv = document.createElement("div");
-  // const instructions = document.createElement("p");
   let deleteBtn = document.createElement("div");
   const deleteBtnImg = document.createElement("i");
 
@@ -53,9 +52,9 @@ submit.onclick = () => {
   toDoListWrapper.appendChild(listItemDiv);
   listItemDiv.appendChild(deleteBtn);
   deleteBtn.appendChild(deleteBtnImg);
-  sumbitCount += 1;
+  submitCount += 1;
 
-  if (sumbitCount > 0) {
+  if (submitCount > 0) {
     instructions.textContent =
       "Click the items below to mark them as completed!";
   }
